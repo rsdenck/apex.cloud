@@ -1,142 +1,62 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body e fontes */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Container comum */
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
 }
 
-/* Header */
 header {
-    background-color: #333;
+    background: #333;
     color: #fff;
     padding: 20px 0;
+    text-align: center;
 }
 
-header h1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 2rem;
+header h1 img {
+    height: 50px;
+    vertical-align: middle;
 }
 
-header nav ul {
-    list-style-type: none;
-    display: flex;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-header nav ul li {
-    margin: 0 10px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-/* Hero Section */
 .hero {
-    background: url('images/background.jpg') no-repeat center center/cover;
-    color: #fff;
-    padding: 100px 0;
+    background: url('../images/background.jpg') center/cover no-repeat;
     text-align: center;
+    padding: 100px 20px;
+    color: white;
 }
 
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.hero .cta-button {
-    background-color: #ff6f61;
+.cta-button {
+    display: inline-block;
+    background: #ff6600;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    margin-top: 20px;
 }
 
-/* Services Section */
-.services {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.services .service {
-    margin-bottom: 30px;
-}
-
-.services .service h3 {
-    font-size: 1.8rem;
-}
-
-/* About Section */
-.about {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-    text-align: center;
-}
-
-/* Contact Section */
-.contact {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.contact form {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.contact form input,
-.contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact form button {
-    background-color: #ff6f61;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background: #333;
+    color: white;
     text-align: center;
     padding: 10px 0;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .hero h2 {
-        font-size: 1.8rem;
-    }
-
-    .services .service,
-    .about p {
-        font-size: 1.2rem;
-    }
+    margin-top: 20px;
 }
