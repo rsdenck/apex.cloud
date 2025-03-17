@@ -1,16 +1,21 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST["name"]);
-    $email = htmlspecialchars($_POST["email"]);
-    $message = htmlspecialchars($_POST["message"]);
+<?php include 'header.php'; ?>
 
-    $to = "seuemail@exemplo.com";
-    $subject = "Contato do Site Apex Cloud";
-    $headers = "From: $email";
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contato</h2>
+        <form action="contact.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    mail($to, $subject, $message, $headers);
-    echo "Mensagem enviada com sucesso!";
-} else {
-    echo "Erro no envio!";
-}
-?>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<?php include 'footer.php'; ?>
