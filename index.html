@@ -1,79 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Cloud - Monitoramento e Observabilidade</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Apex Cloud</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1><img src="images/logo.png" alt="Apex Cloud Logo"> Apex Cloud</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Seu Monitoramento, Nossa Prioridade</h2>
-            <p>Com o Apex Monitoring, sua infraestrutura está sempre sob controle.</p>
-            <a href="#services" class="cta-button">Saiba Mais</a>
+    <section id="home">
+        <h1>Bem-vindo à Apex Cloud</h1>
+        <p>Monitoramento de Infraestrutura, Redes, Servidores e Dashboards</p>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos especializados em monitoramento de infraestrutura...</p>
+    </section>
+
+    <section id="services">
+        <h2>Serviços</h2>
+        <div class="service">
+            <h3>Monitoramento de Infraestrutura</h3>
+            <p>Descrição do serviço...</p>
+        </div>
+        <div class="service">
+            <h3>Redes</h3>
+            <p>Descrição do serviço...</p>
+        </div>
+        <div class="service">
+            <h3>Servidores</h3>
+            <p>Descrição do serviço...</p>
+        </div>
+        <div class="service">
+            <h3>Dashboards</h3>
+            <p>Descrição do serviço...</p>
         </div>
     </section>
 
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Serviços</h2>
-            <div class="service">
-                <h3>Apex Monitoring</h3>
-                <p>Monitoramento contínuo de sistemas e redes com alertas em tempo real.</p>
-            </div>
-            <div class="service">
-                <h3>Observabilidade</h3>
-                <p>Ferramentas avançadas para análise de logs e métricas, garantindo performance ideal.</p>
-            </div>
-        </div>
-    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>Sobre a Apex Cloud</h2>
-            <p>Somos uma empresa dedicada à excelência em serviços de monitoramento e observabilidade para empresas de todos os tamanhos. Garantimos a segurança e a continuidade dos seus sistemas e redes com soluções customizadas e de alta performance.</p>
-        </div>
-    </section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <form action="https://formspree.io/f/your_form_id" method="POST">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
 
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Apex Cloud | Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2025 Apex Cloud. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
