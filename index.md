@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Apex Cloud
-## Monitoramento e Observabilidade de Infraestrutura de TI
 ---
 
 # Bem-vindo à Apex Cloud
