@@ -1,53 +1,25 @@
-# Apex Cloud | Monitoramento e Observabilidade de Infraestrutura de TI
+# Apex Cloud
+**Monitoramento e Observabilidade de Infraestrutura de TI**
 
-Bem-vindo ao **Apex Cloud**! Somos especializados em monitoramento e observabilidade de infraestrutura de TI. Ajudamos empresas a manterem alta disponibilidade, segurança e performance otimizadas.
+![Apex Cloud]
 
-![Apex Cloud](thumbnail.png)
+## O que é o Apex Cloud?
 
-## 🚀 O que é o Apex Cloud?
+Plataforma de monitoramento e observabilidade para servidores, redes e sistemas críticos. Garanta alta disponibilidade, segurança e performance otimizadas.
 
-O **Apex Cloud** oferece uma plataforma robusta para monitoramento de servidores, redes, bancos de dados e sistemas críticos. Nossa missão é garantir que você tenha visibilidade total sobre os sistemas e aplicativos da sua infraestrutura, detectando falhas antes que elas impactem seus negócios.
+## Tecnologias
 
-## 💻 Tecnologias Utilizadas
+- **Zabbix**
+- **Prometheus**
+- **Grafana**
+- **Wazuh**
+- **Suricata**
 
-- **Zabbix**: Monitoramento de infraestrutura de TI.
-- **Prometheus**: Coleta de métricas de sistemas.
-- **Grafana**: Visualização das métricas de performance.
-- **Wazuh**: Monitoramento de segurança e detecção de intrusões.
-- **Suricata**: Monitoramento de tráfego de rede.
+## Funcionalidades
 
-## 🛠 Funcionalidades
+- Monitoramento Proativo
+- Alertas Personalizados
+- Análise de Performance
+- Segurança Integrada
 
-- **Monitoramento Proativo**: Detecte falhas antes que se tornem críticas.
-- **Alertas Personalizados**: Receba notificações em tempo real conforme sua configuração.
-- **Análise de Performance**: Visualize e otimize a performance de suas aplicações.
-- **Segurança Integrada**: Monitore vulnerabilidades e anomalias de segurança na infraestrutura.
-
-## 📥 Download
-
-Você pode baixar o conteúdo deste repositório nos seguintes formatos:
-
-- **[View on GitHub](https://github.com/rsdenck/apex.cloud)**
-- **[Download .zip](https://github.com/rsdenck/apex.cloud/archive/refs/heads/main.zip)**
-- **[Download .tar.gz](https://github.com/rsdenck/apex.cloud/archive/refs/heads/main.tar.gz)**
-
-## 🌐 Como Usar
-
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/rsdenck/apex.cloud.git
-    ```
-
-2. Instale as dependências necessárias para configurar a coleta de métricas com **Zabbix**, **Prometheus** e **Grafana**.
-
-## 🚀 Como Contribuir
-
-Quer contribuir com o projeto? Faça um fork, crie uma nova branch e envie um pull request para que possamos analisar suas contribuições.
-
----
-
-## 📞 Contato
-
-Se você tiver dúvidas ou sugestões, entre em contato conosco para discutir como podemos melhorar o monitoramento e a segurança da sua infraestrutura de TI.
-
-**Apex Cloud** – Tecnologia para monitoramento e observabilidade de TI.
+**Apex Cloud** – Monitoramento e Observabilidade para sua infraestrutura de TI.
