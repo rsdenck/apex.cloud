@@ -47,7 +47,7 @@ Configure alertas personalizados e receba notificações instantâneas quando al
 
 ---
 
-![Apex Cloud](https://link-para-imagem-do-logotipo-ou-imagem-relacionada.png)
+![Apex Cloud](https://github.com/rsdenck/apex.cloud/blob/main/image/it-monitoring-scaled-2.jpg)
 
 > "Nosso compromisso é garantir que sua infraestrutura de TI esteja sempre no seu melhor desempenho."
 
